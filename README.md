@@ -1,5 +1,9 @@
 # 鸭梨文档模板
 
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Sun-ZhenXing/vuepress-solid-template/deploy-docs.yml?branch=main)
+
+🚀 已配置好 GitHub Pages，[在线查看](https://blog.alexsun.top/vuepress-hope-template/)！
+
 - 🎉 VuePress 2 (Vue 3 + Vite 5 + TypeScript)
 - ✨ [VuePress MarkDown 增强](https://vuepress-theme-hope.github.io/v2/md-enhance/)
   - 📖 支持 LaTeX 数学公式（使用 [KaTeX](https://katex.org/)）

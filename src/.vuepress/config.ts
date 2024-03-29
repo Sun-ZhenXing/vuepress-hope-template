@@ -17,7 +17,7 @@ export default defineUserConfig({
   alias: {
     '@': CURRENT_PATH,
   },
-  base: '/',
+  base: config.base as `/${string}/`,
   bundler: viteBundler({
     viteOptions: {
       optimizeDeps: {

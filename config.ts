@@ -2,6 +2,10 @@
 
 export const config = {
   /**
+   * 项目基础路径
+   */
+  base: '/vuepress-hope-template/',
+  /**
    * 项目标题
    */
   title: '标题',
