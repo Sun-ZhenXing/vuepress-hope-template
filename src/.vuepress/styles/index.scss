@@ -1,0 +1,6 @@
+// place your custom styles here
+.vp-catalog .vp-child-catalog {
+  &::marker {
+    content: " ";
+  }
+}
