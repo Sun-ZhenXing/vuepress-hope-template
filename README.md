@@ -2,6 +2,10 @@
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Sun-ZhenXing/vuepress-solid-template/deploy-docs.yml?branch=main)
 
+VuePress Hope 模板。
+
+## 特性
+
 🚀 已配置好 GitHub Pages，[在线查看](https://blog.alexsun.top/vuepress-hope-template/)！
 
 - 🎉 VuePress 2 (Vue 3 + Vite 5 + TypeScript)

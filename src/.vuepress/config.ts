@@ -1,9 +1,6 @@
-import process from 'node:process'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { slug as slugify } from 'github-slugger'
 import { defineUserConfig } from 'vuepress'
-
-// @ts-expect-error missing types
 import { getDirname, path } from 'vuepress/utils'
 
 import theme from './theme'
