@@ -32,7 +32,7 @@
     "markmap-lib": "^0.17.0",
     "markmap-toolbar": "^0.17.0",
     "markmap-view": "^0.17.0",
-    "mermaid": "^10.9.0",
+    "mermaid": "^10.9.1",
     "remarkable-katex": "^1.2.1",
     "reveal.js": "^5.1.0",
     "simple-git-hooks": "^2.11.1",
