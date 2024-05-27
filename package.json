@@ -28,7 +28,7 @@
     "flowchart.ts": "^3.0.0",
     "github-slugger": "^2.0.0",
     "katex": "^0.16.10",
-    "lint-staged": "^15.2.2",
+    "lint-staged": "^15.2.5",
     "markmap-lib": "^0.17.0",
     "markmap-toolbar": "^0.17.0",
     "markmap-view": "^0.17.0",
