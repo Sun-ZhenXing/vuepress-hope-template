@@ -32,9 +32,6 @@ export default defineUserConfig({
       level: [1, 2, 3, 4, 5, 6],
       slugify,
     },
-    code: {
-      lineNumbers: 10,
-    },
     importCode: {
       handleImportPath: str => str
         .replace(/^\//, ROOT_PATH.replace(/(?:|\\|\/)$/, '/'))
