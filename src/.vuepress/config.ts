@@ -34,8 +34,8 @@ export default defineUserConfig({
     },
     importCode: {
       handleImportPath: str => str
-        .replace(/^\//, ROOT_PATH.replace(/(?:|\\|\/)$/, '/'))
-        .replace(/^@\//, CURRENT_PATH.replace(/(?:|\\|\/)$/, '/')),
+        .replace(/^\//, ROOT_PATH.replace(/(?:\\|\/)?$/, '/'))
+        .replace(/^@\//, CURRENT_PATH.replace(/(?:\\|\/)?$/, '/')),
     },
   },
   theme,
