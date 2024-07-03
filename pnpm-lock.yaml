@@ -21,8 +21,8 @@ importers:
         specifier: ^20.14.9
         version: 20.14.9
       '@vue/repl':
-        specifier: ^4.2.1
-        version: 4.2.1
+        specifier: ^4.3.1
+        version: 4.3.1
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.14
         version: 2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5)
@@ -82,7 +82,7 @@ importers:
         version: 2.0.0-rc.50(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5)))
       vuepress-theme-hope:
         specifier: 2.0.0-rc.50
-        version: 2.0.0-rc.50(@vue/repl@4.2.1)(echarts@5.5.1)(flowchart.ts@3.0.0)(katex@0.16.10)(markdown-it@14.1.0)(markmap-lib@0.17.0(markmap-common@0.17.0))(markmap-toolbar@0.17.0(markmap-common@0.17.0))(markmap-view@0.17.0(markmap-common@0.17.0))(mermaid@10.9.1)(reveal.js@5.1.0)(typescript@5.4.5)(vuepress-plugin-search-pro@2.0.0-rc.50(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5))))(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5)))
+        version: 2.0.0-rc.50(@vue/repl@4.3.1)(echarts@5.5.1)(flowchart.ts@3.0.0)(katex@0.16.10)(markdown-it@14.1.0)(markmap-lib@0.17.0(markmap-common@0.17.0))(markmap-toolbar@0.17.0(markmap-common@0.17.0))(markmap-view@0.17.0(markmap-common@0.17.0))(mermaid@10.9.1)(reveal.js@5.1.0)(typescript@5.4.5)(vuepress-plugin-search-pro@2.0.0-rc.50(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5))))(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5)))
 
 packages:
 
@@ -1004,8 +1004,8 @@ packages:
   '@vue/reactivity@3.4.31':
     resolution: {integrity: sha512-VGkTani8SOoVkZNds1PfJ/T1SlAIOf8E58PGAhIOUDYPC4GAmFA2u/E14TDAFcf3vVDKunc4QqCe/SHr8xC65Q==}
 
-  '@vue/repl@4.2.1':
-    resolution: {integrity: sha512-kPpoAp0hQ1sKIGXEHtVdtdh2BgL97SAizEvCqRDB3LmgIYCPbzInwd4mqYkHstAhJPmkNslLd3rwfceMwzwinQ==}
+  '@vue/repl@4.3.1':
+    resolution: {integrity: sha512-yzUuLhR+MqOGBDES+xbnm27SfPIEv7XKwhFWWpQhL7HUbXj77GVu+x50Q56JhCWWKTUJzk9MOvAn7bSgdvB5og==}
 
   '@vue/runtime-core@3.4.31':
     resolution: {integrity: sha512-LDkztxeUPazxG/p8c5JDDKPfkCDBkkiNLVNf7XZIUnJ+66GVGkP+TIh34+8LtPisZ+HMWl2zqhIw0xN5MwU1cw==}
@@ -4336,7 +4336,7 @@ snapshots:
     dependencies:
       '@vue/shared': 3.4.31
 
-  '@vue/repl@4.2.1': {}
+  '@vue/repl@4.3.1': {}
 
   '@vue/runtime-core@3.4.31':
     dependencies:
@@ -6881,7 +6881,7 @@ snapshots:
       - '@vue/composition-api'
       - typescript
 
-  vuepress-plugin-md-enhance@2.0.0-rc.50(@vue/repl@4.2.1)(echarts@5.5.1)(flowchart.ts@3.0.0)(katex@0.16.10)(markdown-it@14.1.0)(markmap-lib@0.17.0(markmap-common@0.17.0))(markmap-toolbar@0.17.0(markmap-common@0.17.0))(markmap-view@0.17.0(markmap-common@0.17.0))(mermaid@10.9.1)(reveal.js@5.1.0)(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5))):
+  vuepress-plugin-md-enhance@2.0.0-rc.50(@vue/repl@4.3.1)(echarts@5.5.1)(flowchart.ts@3.0.0)(katex@0.16.10)(markdown-it@14.1.0)(markmap-lib@0.17.0(markmap-common@0.17.0))(markmap-toolbar@0.17.0(markmap-common@0.17.0))(markmap-view@0.17.0(markmap-common@0.17.0))(mermaid@10.9.1)(reveal.js@5.1.0)(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5))):
     dependencies:
       '@mdit/plugin-alert': 0.12.0(markdown-it@14.1.0)
       '@mdit/plugin-align': 0.12.0(markdown-it@14.1.0)
@@ -6916,7 +6916,7 @@ snapshots:
       vuepress: 2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5))
       vuepress-shared: 2.0.0-rc.50(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5)))
     optionalDependencies:
-      '@vue/repl': 4.2.1
+      '@vue/repl': 4.3.1
       echarts: 5.5.1
       flowchart.ts: 3.0.0
       katex: 0.16.10
@@ -6961,7 +6961,7 @@ snapshots:
       - '@vue/composition-api'
       - typescript
 
-  vuepress-theme-hope@2.0.0-rc.50(@vue/repl@4.2.1)(echarts@5.5.1)(flowchart.ts@3.0.0)(katex@0.16.10)(markdown-it@14.1.0)(markmap-lib@0.17.0(markmap-common@0.17.0))(markmap-toolbar@0.17.0(markmap-common@0.17.0))(markmap-view@0.17.0(markmap-common@0.17.0))(mermaid@10.9.1)(reveal.js@5.1.0)(typescript@5.4.5)(vuepress-plugin-search-pro@2.0.0-rc.50(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5))))(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5))):
+  vuepress-theme-hope@2.0.0-rc.50(@vue/repl@4.3.1)(echarts@5.5.1)(flowchart.ts@3.0.0)(katex@0.16.10)(markdown-it@14.1.0)(markmap-lib@0.17.0(markmap-common@0.17.0))(markmap-toolbar@0.17.0(markmap-common@0.17.0))(markmap-view@0.17.0(markmap-common@0.17.0))(mermaid@10.9.1)(reveal.js@5.1.0)(typescript@5.4.5)(vuepress-plugin-search-pro@2.0.0-rc.50(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5))))(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5))):
     dependencies:
       '@vuepress/helper': 2.0.0-rc.37(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5)))
       '@vuepress/plugin-active-header-links': 2.0.0-rc.37(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5)))
@@ -6993,7 +6993,7 @@ snapshots:
       vue: 3.4.31(typescript@5.4.5)
       vuepress: 2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5))
       vuepress-plugin-components: 2.0.0-rc.50(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5)))
-      vuepress-plugin-md-enhance: 2.0.0-rc.50(@vue/repl@4.2.1)(echarts@5.5.1)(flowchart.ts@3.0.0)(katex@0.16.10)(markdown-it@14.1.0)(markmap-lib@0.17.0(markmap-common@0.17.0))(markmap-toolbar@0.17.0(markmap-common@0.17.0))(markmap-view@0.17.0(markmap-common@0.17.0))(mermaid@10.9.1)(reveal.js@5.1.0)(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5)))
+      vuepress-plugin-md-enhance: 2.0.0-rc.50(@vue/repl@4.3.1)(echarts@5.5.1)(flowchart.ts@3.0.0)(katex@0.16.10)(markdown-it@14.1.0)(markmap-lib@0.17.0(markmap-common@0.17.0))(markmap-toolbar@0.17.0(markmap-common@0.17.0))(markmap-view@0.17.0(markmap-common@0.17.0))(mermaid@10.9.1)(reveal.js@5.1.0)(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5)))
       vuepress-shared: 2.0.0-rc.50(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5)))
     optionalDependencies:
       vuepress-plugin-search-pro: 2.0.0-rc.50(typescript@5.4.5)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(typescript@5.4.5)(yaml@2.4.5))(typescript@5.4.5)(vue@3.4.31(typescript@5.4.5)))
