@@ -1,6 +1,5 @@
 import antfu from '@antfu/eslint-config'
 import { FlatCompat } from '@eslint/eslintrc'
-import perfectionistNatural from 'eslint-plugin-perfectionist/configs/recommended-natural'
 
 const compat = new FlatCompat()
 
@@ -9,7 +8,6 @@ export default antfu(
     markdown: false,
     typescript: true,
   },
-  perfectionistNatural,
   ...compat.config({
     overrides: [{
       extends: ['plugin:markdownlint/recommended'],

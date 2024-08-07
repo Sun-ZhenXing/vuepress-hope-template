@@ -1,5 +1,3 @@
-/* eslint-disable perfectionist/sort-objects */
-
 export const config = {
   /**
    * 项目基础路径
