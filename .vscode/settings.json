@@ -62,5 +62,6 @@
     "jsonc",
     "yaml"
   ],
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "cSpell.enabled": false
 }
