@@ -29,7 +29,7 @@
     "katex": "^0.16.11",
     "lint-staged": "^15.2.10",
     "markmap-lib": "^0.17.0",
-    "markmap-toolbar": "^0.17.0",
+    "markmap-toolbar": "^0.17.2",
     "markmap-view": "^0.17.0",
     "mermaid": "^10.9.1",
     "remarkable-katex": "^1.2.1",
