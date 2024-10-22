@@ -14,7 +14,6 @@ VuePress Hope 模板。
   - 📈 [Mermaid](https://theme-hope.vuejs.press/guide/markdown/mermaid.html)
   - 💡 [chartjs](https://vuepress-theme-hope.github.io/v2/md-enhance/guide/chart/chartjs.html)
   - 📊 [Echarts](https://theme-hope.vuejs.press/guide/markdown/echarts.html)
-  - 🎞️ [Presentation](https://theme-hope.vuejs.press/guide/markdown/revealjs.html)
   - 📐 [Flowchart](https://theme-hope.vuejs.press/guide/markdown/flowchart.html)
 - 📋 代码复制支持
 - 📜 自动生成目录

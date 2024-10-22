@@ -3,8 +3,8 @@ import { slug as slugify } from 'github-slugger'
 import { defineUserConfig } from 'vuepress'
 import { getDirname, path } from 'vuepress/utils'
 
-import theme from './theme'
 import { config } from '../../config'
+import theme from './theme'
 
 const __dirname = getDirname(import.meta.url)
 const ROOT_PATH = path.resolve(__dirname, '../..')
@@ -22,6 +22,11 @@ export default defineUserConfig({
           // BUG: https://github.com/mermaid-js/mermaid/issues/4320
           'mermaid',
         ],
+      },
+      css: {
+        preprocessorOptions: {
+          scss: { api: 'modern-compiler' },
+        },
       },
     },
   }),

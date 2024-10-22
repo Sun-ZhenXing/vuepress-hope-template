@@ -2,48 +2,34 @@
   "name": "vuepress-hope-template",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.5.0",
+  "packageManager": "pnpm@9.12.2",
   "description": "A project of vuepress-theme-hope",
   "license": "MIT",
   "scripts": {
     "build": "vuepress build src",
     "clean-dev": "vuepress dev src --clean-cache",
     "dev": "vuepress dev src",
-    "update-package": "pnpm dlx vp-update",
-    "postinstall": "simple-git-hooks",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.0.0",
-    "@eslint/eslintrc": "^3.1.0",
     "@iconify/vue": "^4.1.2",
-    "@types/node": "^22.5.2",
-    "@vue/repl": "^4.3.1",
-    "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "@types/node": "^22.7.7",
+    "@vue/repl": "^4.4.2",
+    "@vuepress/bundler-vite": "2.0.0-rc.18",
     "echarts": "^5.5.1",
-    "eslint": "^9.9.1",
-    "eslint-plugin-markdownlint": "^0.6.0",
     "flowchart.ts": "^3.0.1",
     "github-slugger": "^2.0.0",
     "katex": "^0.16.11",
     "lint-staged": "^15.2.10",
-    "markmap-lib": "^0.17.0",
-    "markmap-toolbar": "^0.17.0",
-    "markmap-view": "^0.17.0",
-    "mermaid": "^10.9.1",
-    "remarkable-katex": "^1.2.1",
-    "reveal.js": "^5.1.0",
+    "markmap-lib": "^0.17.2",
+    "markmap-toolbar": "^0.17.2",
+    "markmap-view": "^0.17.2",
+    "mermaid": "^11.3.0",
+    "sass-embedded": "^1.80.3",
     "simple-git-hooks": "^2.11.1",
-    "vue": "^3.4.38",
-    "vuepress": "2.0.0-rc.14",
-    "vuepress-plugin-search-pro": "2.0.0-rc.52",
-    "vuepress-theme-hope": "2.0.0-rc.52"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
-  },
-  "lint-staged": {
-    "*": "pnpm lint:fix"
+    "vue": "^3.5.12",
+    "vuepress": "2.0.0-rc.18",
+    "vuepress-plugin-search-pro": "2.0.0-rc.59",
+    "vuepress-theme-hope": "2.0.0-rc.59"
   }
 }
