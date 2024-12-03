@@ -1,14 +1,13 @@
 {
-  "python.analysis.typeCheckingMode": "basic",
-  "python.analysis.autoImportCompletions": true,
   "prettier.enable": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
     "source.fixAll.markdownlint": "explicit",
     "source.organizeImports": "explicit"
   },
   "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.formatOnSave": true,
     "editor.wordWrap": "on",
     "editor.quickSuggestions": {
       "other": "off",
@@ -16,6 +15,5 @@
       "strings": "off"
     }
   },
-  "files.eol": "\n",
   "cSpell.enabled": false
 }
